@@ -20,6 +20,7 @@ body {
     font-family: inherit;
     color: var(--primary-title-color);
     text-decoration: none;
+    cursor: pointer;
 }
 .link:hover, .link:focus {
     color: var(--accent-color);
@@ -107,13 +108,34 @@ letter-spacing: 0.02em;
 
 }
 /* Header link */
+.envelope {
+    width: 16px;
+    height: 11.2px;
+   margin-right: 10px;
+    --color2: --var(--primary-text-color);
+}
+.envelope:hover {
+    fill: var(--accent-color);
+}
+.phone {
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+    --color4: --var(--primary-text-color);
+}
+.phone:hover {
+    fill: var(--accent-color);
+}
 .flex-contacts {
     display: flex;
+    align-items: center; 
     margin-left: auto;
 }
 .contacts-item {
+    display: flex; 
     margin-right: 30px;
 }
+
 .contacts-item:last-child {
     margin-right: 0;
 }
