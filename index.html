@@ -37,16 +37,16 @@
 
         <ul class="list flex-contacts">
           <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="header-link link">
-              <svg class="envelope">
+            <a href="mailto:info@devstudio.com" class="header-link">
+              <svg class="envelope" width="16" height="11.2">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <a href="tel:+380961111111" class="header-link link">
-              <svg class="phone">
+            <a href="tel:+380961111111" class="header-link">
+              <svg class="phone" width="10" height="15">
                 <use href="./images/sprite.svg#icon-phone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -60,22 +60,22 @@
     <main>
       <!--Герой страницы-->
       <section class="hero">
-        <h1 class="title">эффективные решения для вашего бизнеса</h1>
-        <a href="#" class="hero-button link">Заказать услугу</a>
+        <div class="overlay">
+          <h1 class="title">эффективные решения для вашего бизнеса</h1>
+          <a href="#" class="hero-button">Заказать услугу</a>
+        </div>
       </section>
       <!--Наши преимущества-->
       <section class="section features">
         <div class="container">
-          <h2 class="section-title">Наши преимущества</h2>
+          <h2 class="section-title visually-hidden">Наши преимущества</h2>
           <ul class="features list">
             <li class="feature-item">
-              <img
-                width="70"
-                height="70"
-                src="./images/antenna.svg"
-                alt="Антенна"
-                class="feature-icon"
-              />
+              <div class="feature-icon">
+                <svg class="antenna" width="70" ; height="70" ;>
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -83,13 +83,11 @@
               </p>
             </li>
             <li class="feature-item">
-              <img
-                src="./images/clock.svg"
-                width="70"
-                height="70"
-                alt="Часы"
-                class="feature-icon"
-              />
+              <div class="feature-icon">
+                <svg class="clock" width="70" ; height="70" ;>
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="features-title">Пунктуальность</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -97,13 +95,11 @@
               </p>
             </li>
             <li class="feature-item">
-              <img
-                src="./images/pc.svg"
-                width="70"
-                height="70"
-                alt="Компьютер"
-                class="feature-icon"
-              />
+              <div class="feature-icon">
+                <svg class="computer" width="70" ; height="70" ;>
+                  <use href="./images/sprite.svg#icon-computer"></use>
+                </svg>
+              </div>
               <h3 class="features-title">Планирование</h3>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной
@@ -111,13 +107,11 @@
               </p>
             </li>
             <li class="feature-item">
-              <img
-                src="./images/astronaut.svg"
-                width="70"
-                height="70"
-                alt="Человек"
-                class="feature-icon"
-              />
+              <div class="feature-icon">
+                <svg class="astronaut" width="70" ; height="70" ;>
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="features-title">Современные технологии</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -133,16 +127,13 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="work list">
             <li class="work-item">
-              <a href="#" class="link">
-                <img
-                  src="./images/laptop.jpg"
-                  width="370"
-                  height="294"
-                  alt="Ноутбук"
-                />
-
-                <h3 class="work-title">Десктопные приложения</h3>
-              </a>
+              <img
+                src="./images/laptop.jpg"
+                width="370"
+                height="294"
+                alt="Ноутбук"
+              />
+              <h3 class="work-title">Десктопные приложения</h3>
             </li>
             <li class="work-item">
               <a href="#" class="link">
