@@ -379,8 +379,29 @@ border-radius: 4px
 .user-item:last-child {
     margin-right: 0;
 }
-.user-item:focus, .user-item:hover {
-    background-color: var(--accent-color);
+
+.icon-yaco {
+    margin: auto 63px ;
+}
+.icon-tagline {
+    margin: 19px 65px;
+}
+.icon-company {
+    margin: 23px 65px;
+}
+.icon-foster {
+    margin: 24px 45px;
+    --color2: #afb1b8;
+}
+.icon-brand {
+    margin: 21px 55px;
+}
+.icon-companytag {
+    margin: 22px 41px;
+}
+.icon:hover, .icon:focus {
+    --color3: --accent-color;
+    --color2: --accent-color;
 }
 
 
