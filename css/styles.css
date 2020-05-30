@@ -466,6 +466,13 @@ color: var(--primary-white-color);
     margin-top: 21px;
     margin-bottom: 0;
 }
+.social-item.footer {
+    background: rgba(255, 255, 255, 0.1);
+}
+.social-item.footer:hover, 
+.social-item.footer:focus {
+    background-color: var(--accent-color);
+}
 .social-item {
     margin-right: 10px;
 
@@ -527,6 +534,7 @@ color: rgba(255, 255, 255, 0.4);
      min-height: 38px;
      border-radius: 4px;
      padding: 6px 22px;
+     cursor: pointer;
     
 
     font-family: inherit;
@@ -538,7 +546,8 @@ text-align: center;
 }
 
 .button:hover, .button:focus {
-    color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 /* Portfolio examples  */
 
@@ -550,6 +559,7 @@ text-align: center;
     width: calc((100%-60px)/3);
     margin-right: 30px;
     margin-bottom: 30px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .example-item:nth-child(3n) {
     margin-right: 0;

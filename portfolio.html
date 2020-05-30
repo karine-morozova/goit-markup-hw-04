@@ -58,7 +58,7 @@
       <!-- Примеры работ -->
       <section class="section projects">
         <div class="container">
-          <h1 class="section-title">Примеры работ</h1>
+          <h1 class="section-title visually-hidden">Примеры работ</h1>
           <!-- Навигация нашей секции -->
           <nav class="btn">
             <ul class="list button-list">
@@ -306,26 +306,44 @@
         </div>
         <div class="socials">
           <b class="join">Присоединяйтесь</b>
-          <ul class="list social">
-            <li class="social-item">
-              <a href="#" class="link social-img">
-                <img src="./images/instagram.svg" alt="Ссылка на Инстаграм" />
+          <ul class="list social-list footer">
+            <li class="social-item footer">
+              <a href="#" aria-label="Ссылка на Инстаграм" class="link">
+                <svg
+                  class="instagram icon-socials footer"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="#" class="link social-img">
-                <img src="./images/twitter.svg" alt="Ссылка на Твитер" />
+            <li class="social-item footer">
+              <a href="#" aria-label="Ссылка на Твитер" class="link">
+                <svg class="twitter icon-socials footer" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="#" class="link social-img">
-                <img src="./images/facebook.svg" alt="Ссылка на Фейсбук" />
-              </a>
+            <li class="social-item footer">
+              <a href="#" aria-label="Ссылка на Фейсбук" class="link">
+                <svg
+                  class="facebook icon-socials footer"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/sprite.svg#icon-facebook"></use></svg
+              ></a>
             </li>
-            <li class="social-item">
-              <a href="#" class="link social-img">
-                <img src="./images/linkedin.svg" alt="Ссылка на Линкедин" />
-              </a>
+            <li class="social-item footer">
+              <a href="#" aria-label="Ссылка на Линкедин" class="link">
+                <svg
+                  class="linkedin icon-socials footer"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/sprite.svg#icon-linkedin"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
