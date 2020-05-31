@@ -361,6 +361,7 @@ text-align: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    cursor: pointer;
 }
 .social-item:hover, .social-item:focus {
     background-color: var(--accent-color);
