@@ -16,7 +16,7 @@ body {
   background-color: var(--primary-white-color);
 }
 .link {
-    display: flex;
+    display: block;
     font-family: inherit;
     color: var(--primary-title-color);
     text-decoration: none;
@@ -159,6 +159,8 @@ text-decoration: none;
     background-position: center;
     max-width: 1600px;
     height: 600px; 
+    margin-right: auto;
+    margin-left: auto;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -364,7 +366,9 @@ text-align: center;
     background-color: var(--accent-color);
     --color3: var(--primary-white-color); */
 } 
-
+.social-item > .link {
+    display: flex;
+}
 /* Clients section */
 .section.clients {
     padding-bottom: 94px;
@@ -572,6 +576,7 @@ text-align: center;
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
  /* color: var(--primary-title-color);  */
 } 
+
 .example-item > .link:hover,
 .example-item > .link:focus {
     color: var(--primary-title-color);
