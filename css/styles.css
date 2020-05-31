@@ -16,7 +16,7 @@ body {
   background-color: var(--primary-white-color);
 }
 .link {
-    display: block;
+    display: flex;
     font-family: inherit;
     color: var(--primary-title-color);
     text-decoration: none;
@@ -153,7 +153,6 @@ text-decoration: none;
 .hero {
    
     text-align: center; 
-    /* padding-bottom: 47px; */
     background-color: var(--primary-white-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
      url(../images/hero.jpg);
@@ -363,12 +362,9 @@ text-align: center;
 }
 .social-item:hover, .social-item:focus {
     background-color: var(--accent-color);
-    fill: var(--primary-white-color);
-}
+    --color3: var(--primary-white-color); */
+} 
 
- .icon-socials:hover, .icon-socials:focus {
-    fill: currentColor;
-}
 /* Clients section */
 .section.clients {
     padding-bottom: 94px;
@@ -386,24 +382,24 @@ text-align: center;
     height: 90px;
     margin-right: 30px;
     border: 1px solid #AFB1B8;
-border-radius: 4px
+border-radius: 4px;
+cursor: pointer;
 
 }
 .user-item:last-child {
     margin-right: 0;
 }
 .user-item:hover, .user-item:focus {
-    border: 1px solid var(--accent-color);
-    fill: var(--accent-color);  
-    color: var(--accent-color);
+    border: 1px solid var(--accent-color); 
+    --color3: var(--accent-color);
 
 }
 
 
-.icon:hover, .icon:focus {
+/* .icon:hover, .icon:focus {
    
   --color3: currentColor;
-}
+} */
 
 
 /* Footer */
