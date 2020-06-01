@@ -538,7 +538,9 @@ color: rgba(255, 255, 255, 0.4);
     display: inline-block;
     min-width: 130px;
      min-height: 38px;
+     background-color: #F5F4FA;
      border-radius: 4px;
+     border-color: transparent;
      padding: 6px 22px;
      cursor: pointer;
     
