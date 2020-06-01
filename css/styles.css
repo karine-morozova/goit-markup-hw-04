@@ -210,7 +210,7 @@ text-decoration: none;
 }
 .feature-item {
     
-    width: calc((100%-90px)/4);
+    width: calc((100% - 90px) / 4);
     margin-right: 30px;
     
 }
@@ -275,7 +275,7 @@ color: var(--primary-text-color);
 
 .work.list {
     display: flex;
-    /* justify-content: space-between */
+    
 }
 
 .work-title {
@@ -296,7 +296,7 @@ padding: 27px 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width: calc((100%-60px)/3); 
+    width: calc((100% - 60px) / 3); 
     height: 294px;
     
     margin-right: 30px;
@@ -324,7 +324,7 @@ padding: 27px 0;
     display: flex;
 }
 .worker-item { 
-    width: calc((100%-90px)/4);
+    width: calc((100% - 90px) / 4);
     margin-right: 30px;
     background-color: var(--primary-white-color);
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -536,7 +536,7 @@ color: rgba(255, 255, 255, 0.4);
 
 .button {
     display: inline-block;
-    min-width: 130px;
+    min-width: 73px;
      min-height: 38px;
      background-color: #F5F4FA;
      border-radius: 4px;
@@ -564,11 +564,21 @@ text-align: center;
     flex-wrap: wrap;
 }
 .example-item {
-    width: calc((100%-60px)/3);
+    
+    width: calc((100% - 60px) / 3);
+    height: 404px;
     margin-right: 30px;
     margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+
     
 }
+
+
 .example-item:nth-child(3n) {
     margin-right: 0;
 }
@@ -577,7 +587,7 @@ text-align: center;
 }
 .example-item:hover, .example-item:focus {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
- /* color: var(--primary-title-color);  */
+
 } 
 
 .example-item > .link:hover,
@@ -589,13 +599,59 @@ text-align: center;
 
 .examples {
     padding: 20px 24px;
+    width: 370px;
     
-    border-right: 1px solid #EEEEEE;
+     /* border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
- 
+  
 border-bottom-left-radius: 5px;
-border-bottom-right-radius: 5px;
+border-bottom-right-radius: 5px; */
+}
+.techno-example {
+    background-image: url(../images/techno.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.neworlean-example {
+    background-image: url(../images/neworlean.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.seafood-example {
+    background-image: url(../images/seafood.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.prime-example {
+    background-image: url(../images/prime.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.boxes-example {
+    background-image: url(../images/boxes.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.computer-example {
+    background-image: url(../images/computer.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.limited-example {
+    background-image: url(../images/limited.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.lab-example {
+    background-image: url(../images/lab.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.laptop-example {
+    background-image: url(../images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .example-title {
